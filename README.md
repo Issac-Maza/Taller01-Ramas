@@ -7,5 +7,5 @@
 
 
 
-#CAPTURA CAMBIO DE LUGAR DE NOMBRE Y CANCION POR JOSEPH MIRANDA
-!["Captura Joseph Miranda"](Imagenes/Integrante3.png)
+# CAPTURA CAMBIO DE LUGAR DE NOMBRE Y CANCION POR JOSEPH MIRANDA
+!["Captura Joseph Miranda"](Imagenes/Integrante3.jpg)
