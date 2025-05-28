@@ -48,7 +48,10 @@ public class PrimaryController {
             Label lbT = new Label(c.getTitulo() + " \n" + c.getCantante());//titulo y cantante
             lbT.setStyle("-fx-font-weight: bold;-fx-font-size: 14;");
 
-            hb.getChildren().addAll(lbp, iv, lbT);//agregar al hbox
+            Label lbT2 = new Label("fecha de lanzamiento:" + c.getFecha());//fecha
+            lbT2.setStyle("-fx-font-weight: bold;-fx-font-size: 12;");
+
+            hb.getChildren().addAll(lbp, iv, lbT, lbT2);//agregar al hbox
 
             hb.setOnMouseClicked(eh -> mostrarHistorial(c));//establecer el evento del click
             vbTop10.getChildren().add(hb);//agregar al vbox
